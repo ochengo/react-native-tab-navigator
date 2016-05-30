@@ -92,7 +92,9 @@ let styles = StyleSheet.create({
     alignItems: 'center',
   },
   untitledContainer: {
-    paddingBottom: 13,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   title: {
     color: '#929292',
